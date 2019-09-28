@@ -8,7 +8,6 @@
 int main()
 
 {
-
     //*****Declare Variables*****\\
 
     int total_days,
@@ -29,6 +28,7 @@ int main()
                 hotel_output,
                 meal_output,
                 total_output;                ;    
+    
     
     //*****Request Inputs*****\\
     
@@ -65,7 +65,9 @@ int main()
     meal_output = meal_amount.substr (0,meal_string_size);
     total_output = total_amount.substr (0,total_string_size);
     
+    
     //*****Display Outputs*****\\
+    
     std::cout << "Here is a summary of your expenses for your business trip.\n";
     std::cout << std::endl;
       
